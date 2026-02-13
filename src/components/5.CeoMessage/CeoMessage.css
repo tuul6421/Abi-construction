@@ -1,0 +1,88 @@
+.Ceomessage {
+  padding: 50px;
+  background-color: #f0f0f0;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ceo_title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ceo_message {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.ceo_signature {
+  margin-top: 30px;
+  font-size: 16px;
+  font-style: italic;
+  color: #777;
+}
+.ceo_image {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ceo_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 600px) {
+  .ceo_message {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+}
+.ceo_button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ceo_button:hover {
+  background-color: #0056b3;
+}
+.ceo_link {
+  color: #007bff;
+  text-decoration: none;
+}
+.ceo_link:hover {
+  text-decoration: underline;
+}
+.ceo_technologies {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #666;
+}
+.ceo_technologies span {
+  margin-right: 10px;
+}
+.ceo_gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
+}
+.ceo_gallery img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
