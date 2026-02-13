@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import "./Ceomessage.css";
+import "./CeoMessage.css";
 import {useLocation} from "react-router-dom";
 import ceoImage from "../../assets/assets/professional-woman-business-attire_1308-175589.jpg.avif";
 
